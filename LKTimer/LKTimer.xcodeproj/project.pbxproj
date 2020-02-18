@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		A2AE326323FB82E3003362CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE326223FB82E3003362CC /* AppDelegate.m */; };
 		A2AE326623FB82E3003362CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE326523FB82E3003362CC /* SceneDelegate.m */; };
-		A2AE326923FB82E3003362CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE326823FB82E3003362CC /* ViewController.m */; };
-		A2AE326C23FB82E3003362CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AE326A23FB82E3003362CC /* Main.storyboard */; };
 		A2AE326E23FB82E6003362CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AE326D23FB82E6003362CC /* Assets.xcassets */; };
 		A2AE327123FB82E6003362CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AE326F23FB82E6003362CC /* LaunchScreen.storyboard */; };
 		A2AE327423FB82E6003362CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE327323FB82E6003362CC /* main.m */; };
+		A2AE327C23FB83B7003362CC /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE327B23FB83B7003362CC /* LKViewController.m */; };
+		A2AE327F23FB8484003362CC /* LKSharedTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE327E23FB8484003362CC /* LKSharedTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +22,14 @@
 		A2AE326223FB82E3003362CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A2AE326423FB82E3003362CC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		A2AE326523FB82E3003362CC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		A2AE326723FB82E3003362CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2AE326823FB82E3003362CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A2AE326B23FB82E3003362CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2AE326D23FB82E6003362CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2AE327023FB82E6003362CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2AE327223FB82E6003362CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AE327323FB82E6003362CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2AE327A23FB83B7003362CC /* LKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKViewController.h; sourceTree = "<group>"; };
+		A2AE327B23FB83B7003362CC /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
+		A2AE327D23FB8484003362CC /* LKSharedTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKSharedTimer.h; sourceTree = "<group>"; };
+		A2AE327E23FB8484003362CC /* LKSharedTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSharedTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +66,14 @@
 				A2AE326223FB82E3003362CC /* AppDelegate.m */,
 				A2AE326423FB82E3003362CC /* SceneDelegate.h */,
 				A2AE326523FB82E3003362CC /* SceneDelegate.m */,
-				A2AE326723FB82E3003362CC /* ViewController.h */,
-				A2AE326823FB82E3003362CC /* ViewController.m */,
-				A2AE326A23FB82E3003362CC /* Main.storyboard */,
 				A2AE326D23FB82E6003362CC /* Assets.xcassets */,
 				A2AE326F23FB82E6003362CC /* LaunchScreen.storyboard */,
 				A2AE327223FB82E6003362CC /* Info.plist */,
 				A2AE327323FB82E6003362CC /* main.m */,
+				A2AE327A23FB83B7003362CC /* LKViewController.h */,
+				A2AE327B23FB83B7003362CC /* LKViewController.m */,
+				A2AE327D23FB8484003362CC /* LKSharedTimer.h */,
+				A2AE327E23FB8484003362CC /* LKSharedTimer.m */,
 			);
 			path = LKTimer;
 			sourceTree = "<group>";
@@ -135,7 +137,6 @@
 			files = (
 				A2AE327123FB82E6003362CC /* LaunchScreen.storyboard in Resources */,
 				A2AE326E23FB82E6003362CC /* Assets.xcassets in Resources */,
-				A2AE326C23FB82E3003362CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +147,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2AE326923FB82E3003362CC /* ViewController.m in Sources */,
+				A2AE327F23FB8484003362CC /* LKSharedTimer.m in Sources */,
 				A2AE326323FB82E3003362CC /* AppDelegate.m in Sources */,
 				A2AE327423FB82E6003362CC /* main.m in Sources */,
 				A2AE326623FB82E3003362CC /* SceneDelegate.m in Sources */,
+				A2AE327C23FB83B7003362CC /* LKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2AE326A23FB82E3003362CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2AE326B23FB82E3003362CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2AE326F23FB82E6003362CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

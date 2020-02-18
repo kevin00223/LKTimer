@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LKViewController.h
 //  LKTimer
 //
 //  Created by 李凯 on 2020/2/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface LKViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
